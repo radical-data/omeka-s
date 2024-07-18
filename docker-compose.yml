@@ -22,7 +22,7 @@ services:
     networks:
       - omeka-s404-network
     ports:
-      - "8081:80"
+      - "8081:81"
     links:
       - mariadb:db
 
@@ -35,7 +35,7 @@ services:
     networks:
       - omeka-s404-network
     ports:
-      - "80:80"
+      - "81:81"
     links:
       - mariadb:db
     volumes:
