@@ -2,45 +2,6 @@
 
 This repository contains Docker containers, and additional files, to help you run an [Omeka S](https://github.com/omeka/omeka-s) version [4.0.4](https://github.com/omeka/omeka-s/releases/tag/v4.0.4) instance. There are options to either use Github Codespaces (the simplest) or launch/build the containers using local Visual Studio Code (VSCode) setup or via command line only.
 
-## Launch the containers using Github Codespaces
-
-- Fork this repository
-
-    ![Fork github repository](image.png)
-
-- Go to '<> Code' section on your forked repository -> Codespaces -> select 'Create codespace on main'. This will launch a codespace with Visual Studio Code (VSCode) interface if successful
-
-    ![Create codespace on main](image-1.png)
-
-- Install 'Docker' extension. 
-    - Open the "docker-compose.yml" file. Be alert here as you may get an alert asking you "Do you want to install the recommended 'Docker' extension from Microsoft for docker-composer.yml?" Click the install button to install. For the first time, the installation may take a while so you need patience.
-
-        ![install the recommended 'Docker' extension](image-2-1.PNG)
-
-    - Go to "Extensions" section to manually install 'Docker' extension if you do not see the alert.
-
-        ![install the recommended 'Docker' extension](image-2-2.PNG)
-
-- Right-click "docker-compose.yml" file and select 'Compose up'. For the first time, the building may take a while so you need patience.
-
-    ![select 'Compose up'](image-3.PNG)
-
-- Hurray! If everything works as expected, you just click 'Open in Browser' button to go to Omeka S 4.0.4 for further details to set it up. 
-
-    ![Open in Browser](image-4.PNG)
-
-- Fill in the form to setup your Omeka S 4.0.4 instance. 
-
-    ![Omeka S 4.0.4 instance](image-5.PNG)
-
--  Note that as part of this setup, there are:
-    - Two modules installed made up of the [Common](https://gitlab.com/Daniel-KM/Omeka-S-module-Common) module and the [EasyAdmin](https://github.com/Daniel-KM/Omeka-S-module-EasyAdmin) module. The "Common" module needs to be installed first before installing the "EasyAdmin" module.
-    - Go to the "Module" section to install the two modules.
-    - Importance of EasyAdmin module: This module will allow you to install additional Omeka S [themes](https://omeka.org/s/themes/) and or [modules](https://omeka.org/s/modules/).
-    - One [default](https://omeka.org/s/themes/default/) theme installed
-
-    ![Install modules](image-6.PNG)
-
 ## Launch the containers using VSCode
 
 - Install [VSCode](https://code.visualstudio.com/) and [docker extensions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker).
