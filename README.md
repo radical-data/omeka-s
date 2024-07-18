@@ -54,7 +54,7 @@ This repository contains Docker containers, and additional files, to help you ru
     - Enter "omekas404docker:latest" as the image name. Note that this name is used in the docker-compose.yml file.
     - Press enter to build the docker image.
     - Right-click "docker-compose.yml" and select "Compose Up". Alternatively, you can use the terminal: ``` docker compose -f "docker-compose.yml" up -d --build ```
-- Go to your browser and type "localhost" for the OmekaS404 instance website or use "localhost:8080" for the phpmyadmin interface to manage MySQL database.
+- Go to your browser and type "localhost" for the OmekaS404 instance website or use "localhost:8081" for the phpmyadmin interface to manage MySQL database.
 
 ## Launch the containers using command line
 
@@ -87,7 +87,7 @@ Some useful themes and modules for Omeka S version 3.2.0 are also added. Additio
 With your browser, go to:
 
 - Omeka-S404: http://hostname
-- PhpMyAdmin: http://hostname:8080
+- PhpMyAdmin: http://hostname:8081
 
 At that point, you can start configuring your Omeka-S web portal.
 
